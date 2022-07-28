@@ -40522,7 +40522,7 @@ var GameScreen = function (_a) {
                             } }, { children: [(0,_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_Timer__WEBPACK_IMPORTED_MODULE_1__.Timer, { startNumber: 60, timerSize: 5, toggleState: setIsFinishScreen }), (0,_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", __assign({ css: { display: 'flex', flexDirection: 'column' } }, { children: [(0,_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", { children: [successChain - 1, " Chain\uFF01"] }), (0,_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", { children: [score, "\u70B9"] })] }))] }), index));
                     }
                     return ((0,_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", __assign({ css: { width: '30%', marginBottom: '1rem' } }, { children: (0,_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_CurryMaterialCard__WEBPACK_IMPORTED_MODULE_2__.CurryMaterialCard, { calculateScore: calculateScore, setSuccessChain: setSuccessChain }, index) }), index));
-                }) })) }))) : ((0,_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", { children: [(0,_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", __assign({ css: { fontSize: '1.75rem', marginTop: '4.5rem' } }, { children: ["\u5408\u8A08\u30B9\u30B3\u30A2:", score, "\u70B9\uFF01"] })), (0,_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_mantine_core__WEBPACK_IMPORTED_MODULE_4__.Image, { css: { width: '20rem', margin: '0 auto' }, src: 'https://github.com/s-fuuji/making-your-curry/blob/main/assets/images/nabe.png?raw=true' }), (0,_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_mantine_core__WEBPACK_IMPORTED_MODULE_5__.Button, __assign({ css: { width: '14rem', marginTop: '1.5rem', borderRadius: '15px' }, color: "yellow", size: "xl", onClick: retryGame }, { children: "\u3082\u3046\u4E00\u5EA6" }))] })) })));
+                }) })) }))) : ((0,_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", { children: [(0,_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", __assign({ css: { fontSize: '1.75rem', marginTop: '4.5rem' } }, { children: ["\u5408\u8A08\u30B9\u30B3\u30A2:", score, "\u70B9\uFF01"] })), (0,_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_mantine_core__WEBPACK_IMPORTED_MODULE_4__.Image, { css: { width: '20rem', margin: '0 auto' }, src: 'https://github.com/s-fuuji/making_your_curry/blob/main/assets/images/nabe.png?raw=true' }), (0,_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_mantine_core__WEBPACK_IMPORTED_MODULE_5__.Button, __assign({ css: { width: '14rem', marginTop: '1.5rem', borderRadius: '15px' }, color: "yellow", size: "xl", onClick: retryGame }, { children: "\u3082\u3046\u4E00\u5EA6" }))] })) })));
 };
 
 
@@ -40578,7 +40578,7 @@ var ReadyScreen = function (_a) {
                     flexDirection: 'column',
                     alignItems: 'center',
                     gap: '1rem',
-                } }, { children: [(0,_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", __assign({ css: { display: 'flex', marginBottom: '0.75rem' } }, { children: [(0,_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mantine_core__WEBPACK_IMPORTED_MODULE_3__.Image, { css: { display: 'inline-block', width: '20rem' }, src: 'https://github.com/s-fuuji/making-your-curry/blob/main/assets/images/tutorial2.png?raw=true' }), (0,_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", __assign({ css: {
+                } }, { children: [(0,_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", __assign({ css: { display: 'flex', marginBottom: '0.75rem' } }, { children: [(0,_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mantine_core__WEBPACK_IMPORTED_MODULE_3__.Image, { css: { display: 'inline-block', width: '20rem' }, src: 'https://github.com/s-fuuji/making_your_curry/blob/main/assets/images/tutorial2.png?raw=true' }), (0,_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", __assign({ css: {
                                     display: 'flex',
                                     flexDirection: 'column',
                                     justifyContent: 'space-between',
@@ -40700,27 +40700,27 @@ var useImageToggle = function (materialName) {
     switch (materialName) {
         case 'choco':
             materialImage =
-                'https://github.com/s-fuuji/making-your-curry/blob/main/assets/images/choco.png?raw=true';
+                'https://github.com/s-fuuji/making_your_curry/blob/main/assets/images/choco.png?raw=true';
             break;
         case 'curry_ru':
             materialImage =
-                'https://github.com/s-fuuji/making-your-curry/blob/main/assets/images/curry_ru.png?raw=true';
+                'https://github.com/s-fuuji/making_your_curry/blob/main/assets/images/curry_ru.png?raw=true';
             break;
         case 'gyuniku':
             materialImage =
-                'https://github.com/s-fuuji/making-your-curry/blob/main/assets/images/gyuniku.png?raw=true';
+                'https://github.com/s-fuuji/making_your_curry/blob/main/assets/images/gyuniku.png?raw=true';
             break;
         case 'jagaimo':
             materialImage =
-                'https://github.com/s-fuuji/making-your-curry/blob/main/assets/images/jagaimo.png?raw=true';
+                'https://github.com/s-fuuji/making_your_curry/blob/main/assets/images/jagaimo.png?raw=true';
             break;
         case 'ninjin':
             materialImage =
-                'https://github.com/s-fuuji/making-your-curry/blob/main/assets/images/ninjin.png?raw=true';
+                'https://github.com/s-fuuji/making_your_curry/blob/main/assets/images/ninjin.png?raw=true';
             break;
         case 'tamanegi':
             materialImage =
-                'https://github.com/s-fuuji/making-your-curry/blob/main/assets/images/tamanegi.png?raw=true';
+                'https://github.com/s-fuuji/making_your_curry/blob/main/assets/images/tamanegi.png?raw=true';
             break;
         default:
     }
